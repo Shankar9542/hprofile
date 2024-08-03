@@ -30,7 +30,7 @@ jobs:
 
       - name: SonarQube Scan
         env:
-          SONAR_HOST_URL: ${{ https://sonarcloud.io }}
+          SONAR_HOST_URL: ${{ https:\\sonarcloud.io }}
           SONAR_LOGIN: ${{ 61db700a769cc8503cebc012cf1e3965bd9dda87 }}
           SONAR_ORGANIZATION: ${{ hprofile123 }}
           SONAR_PROJECT_KEY: ${{ hprofile123 }}
