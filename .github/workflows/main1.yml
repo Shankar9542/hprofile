@@ -36,7 +36,7 @@ jobs:
           SONAR_PROJECT_KEY: ${{ hprofile123 }}
         run: |
           sonar-scanner -X \
-            -Dsonar.host.url=$https://sonarcloud.io \
+            -Dsonar.host.url=$https:\\sonarcloud.io \
             -Dsonar.login=$61db700a769cc8503cebc012cf1e3965bd9dda87 \
             -Dsonar.organization=$hprofile123 \
             -Dsonar.projectKey=$hprofile123 \
