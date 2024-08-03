@@ -29,6 +29,7 @@ jobs:
         uses: warchant/setup-sonar-scanner@v7
 
       - name: SonarQube Scan
+        uses: SonarSource/sonarcloud-github-action@v2
         env:
           SONAR_HOST_URL: ${{ https:\\sonarcloud.io }}
           SONAR_LOGIN: ${{ 61db700a769cc8503cebc012cf1e3965bd9dda87 }}
